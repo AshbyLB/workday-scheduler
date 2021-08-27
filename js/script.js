@@ -1,19 +1,14 @@
 var container = $(".container");
-
+var textInput = $("textarea");
+var saveBtn = $(".saveBtn");
 var save = window.localStorage;
-
-//var timeNow = moment().format("H");
-
-var timeNow = "11";
-
+var timeNow = moment().format("H");
 var timeB = $('.time-block');
 
 $("#currentDay").text(moment().format("dddd MMMM DD, YYYY"));
 
+timeB.each(function () {
 
-timeB.each(function() {
-    console.log(parseInt($(this).attr("id")));
-    console.log(parseInt(timeNow));
     if (parseInt(timeNow) === parseInt($(this).attr("id"))) {
         $(this).children("textarea").addClass("present");
     }
@@ -26,13 +21,19 @@ timeB.each(function() {
 });
 
 
+saveBtn.on("click", function(event){
+    var inputTime = $(this).parent().attr("id");
+    
+    var inputUser = $(this).siblings(".description").val();
+
+    localStorage.setItem(inputTime, inputUser);
+});
+
+function savedPlans(){
+
+}
 
 
 
-$("textarea").on("click", function(){
-    console.log($(this).parent().attr("id"));
-})
 
-console.log(timeB.children("textarea"));
 
-console.log(timeB.attr("id"));

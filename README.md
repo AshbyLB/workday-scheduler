@@ -1,6 +1,6 @@
 # Hourly Work Planner 
  
-[Link to LIVE site.]()
+[Link to LIVE site.](https://ashbylb.github.io/workday-scheduler/)
 
 ## Table of Contents
 - [Description](#Description)
@@ -17,7 +17,7 @@ To navigate the page, click on the text area next to the hour you need to add pl
 ## Screenshot
  
 
-![me]()
+![me](./assets/images/scheduler.png)
 
 ## Languages
 HTML, CSS, JavaScript, JQuery, Bootstrap, and FontAwesome 

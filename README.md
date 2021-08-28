@@ -17,7 +17,7 @@ To navigate the page, click on the text area next to the hour you need to add pl
 ## Screenshot
  
 
-![me](./assets/images/scheduler.png)
+![Screenshot](./assets/images/scheduler.png)
 
 ## Languages
 HTML, CSS, JavaScript, JQuery, Bootstrap, and FontAwesome 

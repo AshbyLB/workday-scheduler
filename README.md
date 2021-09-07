@@ -7,6 +7,8 @@
 - [Usage](#Usage)
 - [Screenshot](#Screenshot)
 - [Languages](#Languages)
+- [License](#License)
+- [Languages](#Contact)
 
 ## Discription
 Hello.  Thanks you for using the Hourly Work Planner! Feel free to input your plans for the day and rest assured they will be saved until you decide to change them.
@@ -18,6 +20,14 @@ To navigate the page, click on the text area next to the hour you need to add pl
  
 
 ![Screenshot](./assets/images/scheduler.png)
+![Screenshot](./assets/images/schedule2.png)
 
 ## Languages
 HTML, CSS, JavaScript, JQuery, Bootstrap, and FontAwesome 
+
+## License
+MIT
+
+## Contact
+You can contact me with any questions at ashbyleeblakely@gmail.com
+

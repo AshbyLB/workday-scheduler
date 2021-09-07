@@ -8,7 +8,7 @@
 - [Screenshot](#Screenshot)
 - [Languages](#Languages)
 - [License](#License)
-- [Languages](#Contact)
+- [Contact](#Contact)
 
 ## Discription
 Hello.  Thanks you for using the Hourly Work Planner! Feel free to input your plans for the day and rest assured they will be saved until you decide to change them.
